@@ -1,0 +1,42 @@
+/* admin.css */
+
+/* Increase the padding within each setting field */
+.wrap .form-table th,
+.wrap .form-table td {
+    padding-bottom: 20px; /* Adjust the value as needed */
+}
+
+/* Style for main Widget Styling header */
+.wrap h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for new section headers */
+h2.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px; /* Adjust the value for consistent spacing */
+}
+
+/* Style for container to add some padding and margin */
+.container {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Style for switch-container to align the label and switch properly */
+.switch-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Specific margin for each setting field for better spacing */
+.form-table .form-field {
+    margin-bottom: 20px;
+}

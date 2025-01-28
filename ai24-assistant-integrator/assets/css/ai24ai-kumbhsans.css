@@ -1,0 +1,12 @@
+/* Take care of the forced font */
+@font-face {
+    font-family: 'AI24AIKumbhsans';
+    src: url('../fonts/AI24AIKumbhsans.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Apply the font to the entire widget container and all its children */
+#AI24AI-chatbot-container, #AI24AI-chatbot-container * {
+    font-family: 'AI24AIKumbhsans', sans-serif !important;
+}
